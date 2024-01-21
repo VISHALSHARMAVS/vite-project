@@ -18,8 +18,8 @@ if(count>0){
   
   return (
     <>
-     <h1>Vishal Sharma </h1>
-     <h2>Number : {count}</h2>
+     <h1 className='text-5xl font-bold mb-4'>Vishal Sharma </h1>
+     <h2 >Number : {count}</h2>
      <button onClick={addCount}>AddNumber </button>
      <br />
      <button onClick={removeCount}>RemoveNumber </button>
